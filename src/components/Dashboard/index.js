@@ -6,9 +6,8 @@ import Header from "./Header";
 
 const Dashboard = () => {
   return (
-    <div className="flex flex-col justify-between mx-3.5 my-4  ">
+    <div className="h-screen w-full flex flex-col justify-evenly  p-3">
       <Header />
-
       <Details />
       <Graph />
     </div>
