@@ -8,13 +8,18 @@ import BubbleChartIcon from "@material-ui/icons/BubbleChart";
 import RoomIcon from "@material-ui/icons/Room";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import LanguageIcon from "@material-ui/icons/Language";
-// import DriveFolderUploadIcon from "@material-ui/icons/DriveFolderUpload";
+// import ContentPasteIcon from "@material-ui/icons/contentP"
+import CloudUploadIcon from "@material-ui/icons/CloudUpload";
 
 const Sidebar = () => {
   return (
-    <div className="flex-1 flex-col justify-between p-3 h-[100vh] w-72 rounded-sm float-left bg-black opacity-70 sm:hidden ">
+    <div
+      className="flex flex-col justify-between p-3 h-[100vh] w-72 rounded-sm float-left SidebarBackground  "
+      // style={{ }}
+    >
       {/* <div className="border-2 border-red-600" /> */}
-      <div className="border-2">
+      <hr className="mt-5" />
+      <div className=" -mt-4">
         <SidebarRow title="Dashboard" Icon={DashboardIcon} />
         <SidebarRow title=" User Profile" Icon={PersonIcon} />
         <SidebarRow title="Table List" Icon={PersonIcon} />
@@ -26,8 +31,8 @@ const Sidebar = () => {
         <SidebarRow title="RTL Support" Icon={LanguageIcon} />
       </div>
       <div>
-        <p className="bg-blue-500 font-bold flex-end text-white">
-          Upgrade To PRO
+        <p className="bg-blue-500 font-bold rounded-md mt-2 p-2 text-white transform hover:scale-110 duration-500 cursor-pointer">
+          {<CloudUploadIcon />} Upgrade To PRO
         </p>
       </div>
     </div>
