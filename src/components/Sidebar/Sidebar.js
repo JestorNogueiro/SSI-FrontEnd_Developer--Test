@@ -10,6 +10,7 @@ import NotificationsIcon from "@material-ui/icons/Notifications";
 import LanguageIcon from "@material-ui/icons/Language";
 // import ContentPasteIcon from "@material-ui/icons/contentP"
 import CloudUploadIcon from "@material-ui/icons/CloudUpload";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -20,8 +21,12 @@ const Sidebar = () => {
       {/* <div className="border-2 border-red-600" /> */}
       <hr className="mt-5" />
       <div className=" -mt-4">
-        <SidebarRow title="Dashboard" Icon={DashboardIcon} />
-        <SidebarRow title=" User Profile" Icon={PersonIcon} />
+        <Link to="/">
+          <SidebarRow title="Dashboard" Icon={DashboardIcon} />
+        </Link>
+        <Link to="/user">
+          <SidebarRow title=" User Profile" Icon={PersonIcon} />
+        </Link>
         <SidebarRow title="Table List" Icon={PersonIcon} />
         <SidebarRow title="Typography" Icon={PersonIcon} />
         <SidebarRow title="Icon" Icon={BubbleChartIcon} />
