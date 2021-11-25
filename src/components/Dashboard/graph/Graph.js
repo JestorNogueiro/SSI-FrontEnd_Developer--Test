@@ -3,7 +3,7 @@ import GraphDetail from "./GraphDetail";
 
 const Graph = () => {
   return (
-    <div className="flex justify-evenly mt-2  ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-5  md:flex justify-evenly mt-3 p-3 ">
       <GraphDetail
         title="Daily Sales"
         subTitle="55% increase in today sales"

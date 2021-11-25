@@ -12,10 +12,10 @@ import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 
 const Details = () => {
   return (
-    <section className="flex justify-evenly -mt-5 h-56 mb-3 w-full">
+    <section className="grid grid-cols-2 gap-5 md:flex justify-evenly mt-5  md:h-44 max-h-96 mb-5 w-full">
       <Card
         title="Used Space"
-        subTitle="49/50 GB"
+        subTitle="49/50GB"
         other="Get more space"
         PrimaryIcon={FilterNoneIcon}
         SecondaryIcon={WarningIcon}
