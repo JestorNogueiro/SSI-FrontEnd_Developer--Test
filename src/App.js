@@ -12,8 +12,8 @@ function App() {
         <Sidebar />
 
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="user" element={<User />} />
+          <Route path="/" exact element={<Dashboard />} />
+          <Route path="user" exact element={<User />} />
         </Routes>
       </div>
     </div>
