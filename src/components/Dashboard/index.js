@@ -6,10 +6,12 @@ import Header from "./Header";
 
 const Dashboard = () => {
   return (
-    <div className="h-screen w-full flex flex-col justify-evenly  p-3">
+    <div className="flex flex-col h-full w-full justify-center md:justify-evenly space-y-3 p-3  ">
       <Header />
       <Details />
-      <Graph />
+      <div className="mt-4 ">
+        <Graph />
+      </div>
     </div>
   );
 };
