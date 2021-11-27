@@ -7,14 +7,14 @@ import SearchIcon from "@material-ui/icons/Search";
 
 const Header = () => {
   return (
-    <div className=" w-full flex px-3 my-3 justify-between text-gray-500 ">
-      <p className="text-xl font-semibold ">Dashboard</p>
+    <div className=" flex flex-1 px-3 my-3 items-center  justify-between text-gray-500 ">
+      <p className="text-xl font-semibold pl-[15px] md:mr-3 ">Dashboard</p>
 
       <div className="flex items-center justify-items-end space-x-3 text-sm ">
         <input
           type="text"
           placeholder="Search"
-          className="bg-transparent outline-none border-b-2"
+          className="bg-transparent outline-none border-b-2 w-[90px] md:w-full "
         />
         <p className="h-[40px] w-[40px] bg-white p-1.5 rounded-full hidden  md:flex items-center justify-center cursor-pointer   ">
           <SearchIcon />
