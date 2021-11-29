@@ -6,7 +6,8 @@
 Mobile View
 <br/>
 Sidebar:<br/>
-1: ![image](https://user-images.githubusercontent.com/79025576/143872020-746e1fe1-43c2-4239-a9bc-06855c4999f3.png)
+1:<br/>
+![image](https://user-images.githubusercontent.com/79025576/143872020-746e1fe1-43c2-4239-a9bc-06855c4999f3.png)
 2:<br/>
 ![image](https://user-images.githubusercontent.com/79025576/143872110-fac7b9f1-cfc0-486f-ac8d-fa5ae2028c95.png)
 3:<br/>
